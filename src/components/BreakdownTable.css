@@ -1,0 +1,9 @@
+.breakdown { width: 100%; border-collapse: collapse; }
+.breakdown__row td { padding: 10px 4px; border-bottom: 1px solid var(--color-line); }
+.breakdown__value { text-align: right; font-weight: 600; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.breakdown__row--strong td { font-weight: 700; background: var(--color-accent-soft); padding-left: 10px; padding-right: 10px; }
+.breakdown__row--negative .breakdown__value { color: var(--color-bad); }
+.breakdown__row--child .breakdown__label { padding-left: 26px; color: var(--color-muted); }
+.breakdown__row--toggle { cursor: pointer; }
+.breakdown__row--toggle .breakdown__label::before { content: '▸'; display: inline-block; margin-right: 8px; transition: transform .15s; }
+.breakdown__row--open .breakdown__label::before { transform: rotate(90deg); }

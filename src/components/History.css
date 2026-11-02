@@ -1,0 +1,6 @@
+.history__item { border: 1px solid var(--color-line); border-radius: 12px; padding: 14px; margin-bottom: 12px; background: var(--color-bg); }
+.history__name { margin: 0; font-size: 1.05rem; }
+.history__meta { color: var(--color-muted); font-size: .8rem; }
+.history__values { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 8px; margin: 10px 0; }
+.history__value { font-size: .82rem; color: var(--color-muted); }
+.history__amount { display: block; color: var(--color-text); font-size: .95rem; }

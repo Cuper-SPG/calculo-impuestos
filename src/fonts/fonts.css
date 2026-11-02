@@ -1,0 +1,4 @@
+/* Fuentes: agrega aquí tus @font-face apuntando a archivos de esta carpeta.
+   Ejemplo: @font-face { font-family: 'Inter'; src: url('./Inter.woff2') format('woff2'); }
+   Mientras tanto se usa la pila del sistema. */
+:root { --font-base: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }

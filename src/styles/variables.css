@@ -1,0 +1,15 @@
+:root {
+  --color-bg: #e6ebe2; --color-card: #fcfdfb; --color-input: #fff;
+  --color-text: #0E312F; --color-muted: #3b6358; --color-line: #d5ddd1;
+  --color-accent: #1D6B60; --color-accent-soft: #e9f1ec; --color-on-accent: #fff;
+  --color-bad: #a8283f; --color-bad-bg: #f8e3e6; --color-overlay: rgba(14,49,47,.6);
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #0E312F; --color-card: #15423d; --color-input: #0E312F;
+    --color-text: #C6CDC0; --color-muted: #9fb8ac; --color-line: #245248;
+    --color-accent: #729A8D; --color-accent-soft: #1b4f47; --color-on-accent: #0E312F;
+    --color-bad: #ff8aa0; --color-bad-bg: #4a2230; color-scheme: dark;
+  }
+}

@@ -1,0 +1,3 @@
+.net-income { margin-top: 12px; background: var(--color-accent); color: var(--color-on-accent); border-radius: 12px; padding: 16px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 6px; }
+.net-income__label { font-weight: 700; }
+.net-income__value { font-size: 1.7rem; font-variant-numeric: tabular-nums; }
